@@ -1,3 +1,2 @@
 #!/bin/bash
-absolut_path_name=$(pwd)
-echo "the absolut path name is: $absolut_path_name"
+$(pwd)
