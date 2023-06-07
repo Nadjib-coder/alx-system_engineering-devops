@@ -1,2 +1,3 @@
 #!/bin/bash
-/alx-system_engineering-devops/0x00-shell_basics
+absolut_path_name=$(pwd)
+echo "the absolut path name is: $absolut_path_name"
