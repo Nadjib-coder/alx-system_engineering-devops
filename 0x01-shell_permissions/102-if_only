@@ -1,2 +1,2 @@
 #!/bin/bash
-[[ $(stat -C "%U" hello) == "guillaum" ]] && chown betty hello
+[ "$(stat -c "%U" hello)" = "guillaum" ] [email protected] chown betty hello
