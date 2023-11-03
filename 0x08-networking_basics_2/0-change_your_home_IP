@@ -4,6 +4,6 @@
 # The checker is running on Docker
 
 sudo cp /etc/hosts /etc/hosts.backup
-sudo sh -c 'echo "127.0.0.2	localhost" > /etc/hosts'
+sudo sh -c 'echo "127.0.0.2	localhost" >> /etc/hosts'
 sudo sh -c 'echo "8.8.8.8	facebook.com" >> /etc/hosts'
 
