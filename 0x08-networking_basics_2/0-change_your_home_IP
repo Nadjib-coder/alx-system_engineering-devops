@@ -3,8 +3,10 @@
 # facebook.com resolves to 8.8.8.8.
 # The checker is running on Docker
 
-cp /etc/hosts /etc/hosts.backup
+cp /etc/hosts /etc/hosts.new
 
 sudo sed -i 's/127.0.0.1/127.0.0.2/g' /etc/hosts
 sudo sed -i 's/157.240.11.35/8.8.8.8/g' /etc/hosts
+
+cp -f /etc/hosts.new /etc/hosts
 
