@@ -22,4 +22,3 @@ else
 		query_subdomain "$subdomain" "$1"
 	done
 fi
-
